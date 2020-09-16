@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login_Activity">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_usuario"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Acesso"
+        android:textColor="#484e54"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="5dp"
+        android:background="#C6C6C6"
+        android:hint="Endereço de e-mail"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:background="#C6C6C6"
+        android:hint="Senha"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#007991"
+        android:text="Entrar"
+        android:textSize="16sp"
+        android:textColor="#FFF"
+        android:textAllCaps="false"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingVertical="10dp"
+        android:text="ou"
+        android:textColor="#484e54"
+        android:textSize="22sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:background="#4267B2"
+        android:text="Entrar com o Facebook"
+        android:textSize="16sp"
+        android:textColor="#FFF"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#DB4437"
+        android:text="Entrar com o Google"
+        android:textSize="16sp"
+        android:textColor="#FFF"
+        android:textAllCaps="false"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingVertical="10dp"
+        android:padding="10dp"
+        android:text="Não tem uma conta?"
+        android:textColor="#484e54"
+        android:textSize="22sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:background="#007991"
+        android:text="Inscreva-se"
+        android:textSize="16sp"
+        android:textColor="#FFF"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>
